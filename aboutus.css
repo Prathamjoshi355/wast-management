@@ -12,6 +12,7 @@
     color: #333;
     margin: 0;
     background-color: rgb(208, 223, 238);
+    background-image: url('https://png.pngtree.com/background/20230617/original/pngtree-spherical-planet-and-trees-in-3d-rendering-picture-image_3696595.jpg');
   }
   
   
@@ -80,7 +81,7 @@
   .about-us-content > * {
     flex: 1; 
     margin-right: 1rem;
-    
+
   }
   
   p {

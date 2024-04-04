@@ -15,6 +15,10 @@ body {
     background-size: cover; /* Cover the entire background */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
+    background-color: rgb(208, 223, 238);
+    background-image: url('https://png.pngtree.com/background/20230617/original/pngtree-spherical-planet-and-trees-in-3d-rendering-picture-image_3696595.jpg');
+    background-size: cover;
+    height: 100%;
 }
 
 
@@ -116,7 +120,7 @@ nav ul li a:hover {
 
 /* Styles for the widget1 */
 .widget {
-    background-color: rgb(208, 223, 238);; /* Updated color */
+    background-color: antiquewhite; /* Updated color */
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -136,9 +140,13 @@ nav ul li a:hover {
 
 /* Styles for each collection schedule item */
 .widget li {
-    margin-bottom: 10px;
+    margin : 50px;
     border-bottom: 1px solid #414833; /* Updated color */
     padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    
+
 }
 
 /* Styles for collection schedule details */

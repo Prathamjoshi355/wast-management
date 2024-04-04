@@ -43,6 +43,7 @@ header h1 {
     margin: 20px;
     background-color: #f9f9f9;
     color: #333;
+    background-image: url('https://png.pngtree.com/background/20230617/original/pngtree-spherical-planet-and-trees-in-3d-rendering-picture-image_3696595.jpg');
 }
 .container {
     max-width: 800px;
@@ -56,6 +57,7 @@ h1, h2, h3 {
     color: #fff;
     margin-top: 0;
     font-weight: normal;
+    text-align: center;
 }
 .head{
     background-color:#333 ;
@@ -106,7 +108,7 @@ p {
     left: 50%;
     width: 50%;
     height: 2px;
-    background-color: #006699;
+    background-color: #040404;
     transform: translateX(-50%);
 }
 
