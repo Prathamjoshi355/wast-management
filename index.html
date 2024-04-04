@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Management Platform</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Waste Management Platform</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="#">Send Request</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Education</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="dashboard">
+            <h2>Dashboard</h2>
+            <!-- Display upcoming waste collection schedules, recycling progress, and campaigns -->
+            <div class="widget">
+                <h3>Upcoming Waste Collection</h3>
+                <ul>
+                    <li>
+                        <strong>Date:</strong> April 12, 2024
+                        <br>
+                        <strong>Time:</strong> 10:00 AM - 12:00 PM
+                        <br>
+                        <strong>Type:</strong> Recyclables
+                        <br>
+                        <strong>Location:</strong> Your Neighborhood
+                    </li>
+                    <li>
+                        <strong>Date:</strong> April 15, 2024
+                        <br>
+                        <strong>Time:</strong> 2:00 PM - 4:00 PM
+                        <br>
+                        <strong>Type:</strong> Organic Waste
+                        <br>
+                        <strong>Location:</strong> Your Neighborhood
+                    </li>
+                    <!-- Add more upcoming collection schedules as needed -->
+                </ul>
+            </div>
+            
+            <div class="widget">
+                <h3>Recycling Progress</h3>
+                <!-- Display recycling progress and statistics here -->
+            </div>
+            <div class="widget">
+                <h3>Environmental Awareness Campaigns</h3>
+                <!-- Display ongoing campaigns and educational materials here -->
+            </div>
+        </section>
+
+        <section class="actions">
+            <h2>Take Action</h2>
+            <!-- Buttons to take actions such as scheduling waste collection, joining recycling initiatives, etc. -->
+            <button onclick="scheduleCollection()">Schedule Waste Collection</button>
+            <button onclick="joinInitiative()">Join Recycling Initiative</button>
+            <!-- Add more action buttons as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Waste Management Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
