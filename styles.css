@@ -1,4 +1,23 @@
 /* Reset default margin and padding */
+
+/* Define the @font-face rule to specify the font family and the source of the font files */
+@font-face {
+    font-family: 'Roboto'; /* Font family name */
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /* URL of the font file */
+}
+
+/* Apply the custom font to the entire website */
+body {
+    font-family: 'Roboto', sans-serif; /* Use the custom font with a fallback font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-image: url(''); /* Set the background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,10 +26,10 @@
 
 /* Basic styles for the header */
 header {
-    background-color: #2ecc71;
+    background-color: #333;
     color: #fff;
+    padding: 1rem;
     text-align: center;
-    padding: 20px;
 }
 
 /* Basic styles for the main content */
@@ -27,7 +46,7 @@ main {
 
 /* Styles for the widgets in the dashboard section */
 .widget {
-    background-color: #f0f0f0;
+    background-color: #7f4f24; /* Updated color */
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -39,7 +58,7 @@ main {
 
 /* Styles for action buttons */
 .actions button {
-    background-color: #2ecc71;
+    background-color: #936639; /* Updated color */
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -49,12 +68,12 @@ main {
 }
 
 .actions button:hover {
-    background-color: #27ae60;
+    background-color: #a68a64; /* Updated color */
 }
 
 /* Styles for the footer */
 footer {
-    background-color: #333;
+    background-color: #b6ad90; /* Updated color */
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -65,17 +84,17 @@ footer {
 
 
 /*Nav Bar css*/
-
-/* Basic styles for the navigation bar */
+/* Styles for the navigation bar */
 nav {
-    background-color: #2ecc71;
+    background-color: #f0f0f0;; /* Updated color */
     padding: 10px 20px;
+    text-align: center; /* Center align the contents */
 }
 
 /* Styles for the navigation links */
 nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto; /* Set left and right margins to auto to center the list */
     padding: 0;
 }
 
@@ -85,7 +104,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
 }
 
@@ -93,9 +112,11 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+
+
 /* Styles for the widget1 */
 .widget {
-    background-color: #f0f0f0;
+    background-color: rgb(208, 223, 238);; /* Updated color */
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -104,7 +125,7 @@ nav ul li a:hover {
 /* Styles for the widget title */
 .widget h3 {
     margin-bottom: 10px;
-    color: #333;
+    color: #656d4a; /* Updated color */
 }
 
 /* Styles for the list of collection schedules */
@@ -116,11 +137,91 @@ nav ul li a:hover {
 /* Styles for each collection schedule item */
 .widget li {
     margin-bottom: 10px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #414833; /* Updated color */
     padding-bottom: 10px;
 }
 
 /* Styles for collection schedule details */
 .widget li strong {
-    color: #2ecc71;
+    color: #333d29; /* Updated color */
 }
+
+
+/*Request css*/
+.request-form {
+    background-color: #f0f0f0; /* Background color for the request form section */
+    padding: 20px; /* Add padding to the section */
+}
+
+.request-form form {
+    max-width: 600px; /* Limit the width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+.request-form label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add space below each label */
+}
+
+.request-form input[type="text"],
+.request-form input[type="email"],
+.request-form select,
+.request-form textarea {
+    width: 100%; /* Make input fields and textarea fill the width of the form */
+    padding: 10px; /* Add padding to input fields and textarea */
+    margin-bottom: 15px; /* Add space below each input field */
+    border: 1px solid #ccc; /* Add border to input fields and textarea */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.request-form select {
+    width: 100%; /* Make select element fill the width of the form */
+}
+
+.request-form textarea {
+    height: 100px; /* Set a fixed height for the textarea */
+}
+
+.request-form button[type="submit"] {
+    background-color: #2ecc71; /* Background color for the submit button */
+    color: #fff; /* Text color for the submit button */
+    padding: 10px 20px; /* Add padding to the submit button */
+    border: none; /* Remove border from the submit button */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Add transition effect for smoother hover */
+}
+
+.request-form button[type="submit"]:hover {
+    background-color: #27ae60; /* Change background color on hover */
+}
+
+
+/*Nav bar*/
+nav {
+    background-color: #f0f0f0;
+    padding: 1rem 0; /* Adjust top and bottom padding as needed */
+    text-align: center; /* Center align the contents */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0 auto; /* Center navigation horizontally */
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold; /* Add a little weight for better legibility */
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
